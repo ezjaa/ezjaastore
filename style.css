@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'custom';
+  src: url('font/poppins.ttf') format('truetype');
+}
+
+body {
+  font-family: 'custom';
+}
+
+.product-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-gallery img {
+  width: 100%;
+  display: block;
+}
+
+.diskon {
+  font-size: 20px;      /* atur ukuran */
+  font-weight: bold;    /* ketebalan */
+  color: #333;          /* warna */
+  text-align: center;   /* posisi */
+  margin: 20px 0;       /* jarak atas bawah */
+}
+
+.harga-lama,
+.harga-baru,
+.ongkir{
+  margin: 0;
+  line-height: 1.2; 
+  text-align: center;
+}
+
+.harga-lama {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 20px;
+}
+
+.harga-baru {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.order-section {
+  text-align: center;
+  margin: 20px 0 80px;
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+  background: #20b858;
+}
+
+/* FAB */
+.fab {
+  position: fixed;
+  width: 80%;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #25d366;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;   
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.fab img {
+  width: 28px;
+  height: 28px;
+}
